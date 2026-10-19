@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import FirstTry from './src/screens/FirstTry';
+import NaiveLoginScreen from './src/screens/NaiveLoginScreen';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <NaiveLoginScreen />
     </View>
   );
 }
